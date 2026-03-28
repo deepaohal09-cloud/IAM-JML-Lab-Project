@@ -48,6 +48,28 @@ Configured folder-level permissions using security groups to control access.
 ### Folder Permissions
 ![Folder Permissions](SC3_FinancePermission.png)
 
-Outcome
 
-This project demonstrates practical IAM implementation and simulates real-world access management processes in an enterprise environment.
+## Access Request Workflow
+
+This project follows a structured access control process similar to real-world enterprise environments:
+
+1. User requests access to a specific resource (e.g., Finance folder)
+2. Request is reviewed and approved by the reporting manager
+3. IT administrator assigns the user to the appropriate security group
+4. Access is granted automatically based on group membership
+5. Access is revoked when the user leaves the organization or changes roles
+
+Note: Access is not assigned directly to users. It is managed through security groups to ensure scalability and security.
+
+
+## Outcome
+
+This project demonstrates practical implementation of Identity and Access Management (IAM) concepts using Active Directory.
+
+It simulates a real-world enterprise environment by implementing user lifecycle management (Joiner, Mover, Leaver), role-based access control (RBAC), and secure folder access using group-based permissions.
+
+Additionally, it incorporates a structured access request workflow, ensuring that access is granted through proper approval and governance processes.
+
+Overall, this project showcases hands-on experience in managing identities, controlling access, and following industry best practices in IAM.
+
+

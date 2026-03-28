@@ -37,19 +37,16 @@ Created a Finance group and added the user to the group instead of assigning per
 
 Configured folder-level permissions using security groups to control access.
 
-Screenshots
+## Screenshots
 
-User Creation
+### User Creation
+![User Creation](SC1_UserCreated.png)
 
-"User Creation" (SC1_UserCreated.png)
+### Group Membership
+![Group Membership](SC2_GroupMembership.png)
 
-Group Membership
-
-"Group Membership" (SC2_GroupMembership.png)
-
-Folder Permissions
-
-"Folder Permissions" (SC3_FinancePermission.png)
+### Folder Permissions
+![Folder Permissions](SC3_FinancePermission.png)
 
 Outcome
 
